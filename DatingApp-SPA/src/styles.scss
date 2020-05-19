@@ -2,3 +2,23 @@
 
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import '../node_modules/font-awesome/css/font-awesome.min.css';
+
+.bg-dark {
+    background: linear-gradient(90deg, #B24592 0%, #F15F79 100%);
+}
+
+input.form-control {
+    background-color: rgba(255, 255, 255, .85);
+}
+input.form-control:focus {
+    box-shadow: 0 0 0 .2rem #4776E6;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+    border-color: #4776e6;
+}
+.btn-info {
+    background: linear-gradient(90deg, #ff9966 0%, #ff5e62 100%);
+    border-color: #F37335;
+}
