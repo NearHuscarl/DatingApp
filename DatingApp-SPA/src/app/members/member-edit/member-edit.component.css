@@ -2,6 +2,22 @@
     padding-bottom: 50px;
 }
 
+h1 {
+    font-size: 30px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-right: 10px;
+}
+label:not(:first-child) {
+    margin-left: 20px;
+}
+
 .img-thumbnail {
     border: none;
     margin-bottom: 15px;
@@ -17,7 +33,8 @@
 }
 
 .card-footer {
-    padding: 10px 15px;
     background-color: #fff;
     border-top: none;
+    padding: 20px;
+    padding-top: 10px;
 }
